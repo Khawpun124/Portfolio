@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.landing-page {
+    text-align: center;
+}
+
+.landing-page h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #b00000;
+    margin-bottom: 20px;
+}
+
+.enter-button {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: color 0.3s;
+}
+
+.enter-button:hover {
+    color: #b00000;
+}
+
+.enter-button:focus {
+    outline: none;
+}
